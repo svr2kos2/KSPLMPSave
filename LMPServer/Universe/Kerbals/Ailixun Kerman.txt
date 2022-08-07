@@ -1,0 +1,42 @@
+name = Ailixun Kerman
+gender = Female
+type = Tourist
+trait = Tourist
+brave = 0.204615206
+dumb = 0.0463895425
+badS = False
+veteran = False
+tour = True
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 0
+idx = 0
+extraXP = 0
+hasHelmetOn = False
+hasNeckRingOn = False
+hasVisorDown = False
+lightR = 1
+lightG = 0.5176
+lightB = 0
+completedFirstEVA = False
+suit = Default
+hero = False
+INVENTORY
+{
+}
+CAREER_LOG
+{
+	flight = 1
+	0 = Flight,Kerbin
+	0 = Suborbit,Kerbin
+	0 = Orbit,Kerbin
+	0 = Land,Kerbin
+	0 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 1
+}

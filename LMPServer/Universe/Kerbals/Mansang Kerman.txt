@@ -1,0 +1,46 @@
+name = Mansang Kerman
+gender = Male
+type = Tourist
+trait = Tourist
+brave = 0.222242996
+dumb = 0.620510697
+badS = False
+veteran = False
+tour = True
+state = Available
+inactive = False
+inactiveTimeEnd = 23273.296106339909
+gExperienced = 0
+outDueToG = False
+ToD = 0
+idx = 1
+extraXP = 0
+hasHelmetOn = False
+hasNeckRingOn = False
+hasVisorDown = False
+lightR = 1
+lightG = 0.5176
+lightB = 0
+completedFirstEVA = False
+suit = Default
+hero = False
+INVENTORY
+{
+}
+CAREER_LOG
+{
+	flight = 2
+	0 = Flight,Kerbin
+	0 = Suborbit,Kerbin
+	0 = Orbit,Kerbin
+	0 = Land,Kerbin
+	0 = Recover
+	1 = Flight,Kerbin
+	1 = Suborbit,Kerbin
+	1 = Land,Kerbin
+	1 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 2
+}

@@ -1,0 +1,57 @@
+name = StrategySystem
+scene = 7, 8, 5, 6
+STRATEGIES
+{
+	STRATEGY
+	{
+		name = UnpaidResearchProgramCfg
+		date = 47513.723432661842
+		factor = 0.5
+		isActive = True
+		EFFECT
+		{
+			name = CurrencyConverter
+		}
+	}
+	STRATEGY
+	{
+		name = UnpaidResearchProgramCfg
+		date = 22122.01334028619
+		factor = 0.239999995
+		isActive = False
+		EFFECT
+		{
+			name = CurrencyConverter
+		}
+	}
+	STRATEGY
+	{
+		name = UnpaidResearchProgramCfg
+		date = 47513.723432661842
+		factor = 0.5
+		isActive = True
+		EFFECT
+		{
+			name = CurrencyConverter
+		}
+	}
+	STRATEGY
+	{
+		name = AgressiveNegotiations
+		date = 50889.723517411949
+		factor = 0.100000001
+		isActive = True
+		EFFECT
+		{
+			name = CurrencyOperation
+		}
+		EFFECT
+		{
+			name = CurrencyOperation
+		}
+		EFFECT
+		{
+			name = CurrencyOperation
+		}
+	}
+}

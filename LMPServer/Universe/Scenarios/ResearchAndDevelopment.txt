@@ -1,0 +1,915 @@
+name = ResearchAndDevelopment
+scene = 7, 8, 5, 6
+sci = 175.84024
+Tech
+{
+	id = start
+	state = Available
+	cost = 0
+	part = basicFin
+	part = mk1pod
+	part = solidBooster.sm
+	part = GooExperiment
+	part = trussPiece1x
+	part = parachuteSingle
+}
+Tech
+{
+	id = engineering101
+	state = Available
+	cost = 5
+	part = SurfAntenna
+	part = longAntenna
+	part = sensorThermometer
+	part = Decoupler.1
+	part = OnboardCamera
+}
+Science
+{
+	id = recovery@KerbinFlew
+	title = 回收飞行后返回的航天器。
+	dsc = 1
+	scv = 0
+	sbv = 5
+	sci = 6
+	asc = True
+	cap = 6
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedLaunchPad
+	title = 在发射台的EVA报告
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedLaunchPad
+	title = 在发射台的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Tech
+{
+	id = basicRocketry
+	state = Available
+	cost = 5
+	part = fuelTankSmallFlat
+	part = solidBooster.v2
+	part = liquidEngine2.v2
+	part = liquidEngine2
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowShores
+	title = 飞越Kerbin的海岸时的温度扫描
+	dsc = 1
+	scv = 1
+	sbv = 0.699999988
+	sci = 0
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowShores
+	title = 飞越Kerbin的海岸时的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}
+Science
+{
+	id = crewReport@KerbinFlyingHigh
+	title = 在Kerbin的高层大气中的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.899999976
+	sci = 4.5
+	asc = True
+	cap = 4.5
+}
+Tech
+{
+	id = stability
+	state = Available
+	cost = 18
+	part = radialDecoupler
+	part = winglet
+	part = noseCone
+}
+Tech
+{
+	id = survivability
+	state = Available
+	cost = 15
+	part = ServiceBay.125.v2
+	part = parachuteRadial
+	part = radialDrogue
+	part = miniLandingLeg
+	part = radPanelSm
+	part = sensorBarometer
+	part = HeatShield1
+	part = HeatShield0
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedLaunchPad
+	title = 在发射台的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = mysteryGoo@KerbinSrfLandedLaunchPad
+	title = 在发射台的神秘黏性物质™观察结果
+	dsc = 1
+	scv = 0.0532544553
+	sbv = 0.300000012
+	sci = 3.69230771
+	asc = True
+	cap = 3.9000001
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedLaunchPad
+	title = 在发射台的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = crewReport@KerbinInSpaceLow
+	title = 在距离Kerbin较近的太空中的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 5
+	asc = True
+	cap = 5
+}
+Tech
+{
+	id = aviation
+	state = Available
+	cost = 45
+	part = GearFree
+	part = GearFixed
+	part = navLight1
+	part = MK1Fuselage
+	part = miniFuselage
+	part = miniJetEngine
+	part = Mark1Cockpit
+	part = structuralWing3
+	part = StandardCtrlSrf
+	part = wingConnector5
+	part = wingConnector2
+	part = miniIntake
+	part = airplaneTail
+	part = tailfin
+	part = sweptWing
+}
+Tech
+{
+	id = generalRocketry
+	state = Available
+	cost = 20
+	part = fuelTankSmall
+	part = solidBooster1-1
+	part = liquidEngine.v2
+	part = liquidEngine
+}
+Science
+{
+	id = barometerScan@KerbinInSpaceLow
+	title = 在距离Kerbin较近的太空中的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 12
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = temperatureScan@KerbinInSpaceLow
+	title = 在距离Kerbin较近的太空中的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 8
+	asc = True
+	cap = 8
+}
+Science
+{
+	id = recovery@KerbinOrbited
+	title = 回收从Kerbin轨道返回的航天器。
+	dsc = 1
+	scv = 2.14576721E-05
+	sbv = 10
+	sci = 11.9997425
+	asc = True
+	cap = 12
+}
+Tech
+{
+	id = flightControl
+	state = Available
+	cost = 45
+	part = sasModule
+	part = winglet3
+	part = R8winglet
+	part = mumech.MJ2.AR202
+}
+Tech
+{
+	id = basicScience
+	state = Available
+	cost = 45
+	part = HighGainAntenna5.v2
+	part = HighGainAntenna5
+	part = radPanelLg
+	part = radPanelEdge
+	part = ScienceBox
+	part = science.module
+	part = batteryPack
+	part = probeCoreSphere.v2
+}
+ExpParts
+{
+	HeatShield2 = 1
+	radialDecoupler2 = 1
+	Size2LFB.v2 = 1
+	Separator.0 = 1
+	Decoupler.0 = 1
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowGrasslands
+	title = 飞越Kerbin的草原时的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}
+Science
+{
+	id = barometerScan@KerbinFlyingLow
+	title = 飞越Kerbin时的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 8.39999962
+	asc = True
+	cap = 8.39999962
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowWater
+	title = 飞越Kerbin的水边时的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 5.5999999
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowWater
+	title = 飞越Kerbin的水边时的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedRunway
+	title = 在跑道的大气压扫描
+	dsc = 1
+	scv = 0.300000042
+	sbv = 0.300000012
+	sci = 2.51999998
+	asc = True
+	cap = 3.60000014
+}
+Tech
+{
+	id = generalConstruction
+	state = Available
+	cost = 45
+	part = largeAdapter
+	part = launchClamp1
+	part = flagPartSize1
+	part = Mk1FuselageStructural
+	part = Decoupler.2
+	part = strutConnector
+	part = MK1CrewCabin
+}
+Science
+{
+	id = crewReport@KerbinInSpaceHigh
+	title = 在距离Kerbin较远的太空中的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 7.5
+	asc = True
+	cap = 7.5
+}
+Science
+{
+	id = evaReport@KerbinInSpaceHigh
+	title = 在距离Kerbin较远的太空中的EVA报告
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 12
+	asc = True
+	cap = 12
+}
+Tech
+{
+	id = advRocketry
+	state = Available
+	cost = 45
+	part = fireworksLauncherSmall
+	part = fireworksLauncherBig
+	part = fuelTank
+	part = radialLiquidEngine1-2
+	part = liquidEngine3.v2
+}
+Science
+{
+	id = evaReport@KerbinInSpaceLowWater
+	title = 在距离Kerbin的水边较近的太空中的EVA报告
+	dsc = 1
+	scv = 0
+	sbv = 1
+	sci = 8
+	asc = True
+	cap = 8
+}
+Science
+{
+	id = recovery@KerbinSubOrbited
+	title = 回收从亚轨道飞行返回的航天器。
+	dsc = 1
+	scv = 0.000771582068
+	sbv = 8
+	sci = 9.59259319
+	asc = True
+	cap = 9.60000038
+}
+Science
+{
+	id = mysteryGoo@KerbinFlyingHigh
+	title = 在Kerbin的高层大气中的神秘黏性物质™观察结果
+	dsc = 1
+	scv = 0.676923037
+	sbv = 0.899999976
+	sci = 3.78000021
+	asc = True
+	cap = 11.6999998
+}
+Science
+{
+	id = mysteryGoo@KerbinInSpaceLow
+	title = 在距离Kerbin较近的太空中的神秘黏性物质™观察结果
+	dsc = 1
+	scv = 0.15621303
+	sbv = 1
+	sci = 10.9692307
+	asc = True
+	cap = 13
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinInSpaceLow
+	title = 在距离Kerbin较近的太空中的材料研究
+	dsc = 1
+	scv = 0.0295333862
+	sbv = 1
+	sci = 31.0549316
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingHigh
+	title = 在Kerbin的高层大气中的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.899999976
+	sci = 7.19999981
+	asc = True
+	cap = 7.19999981
+}
+Science
+{
+	id = barometerScan@KerbinFlyingHigh
+	title = 在Kerbin的高层大气中的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.899999976
+	sci = 10.7999992
+	asc = True
+	cap = 10.7999992
+}
+Tech
+{
+	id = electrics
+	state = Available
+	cost = 90
+	part = spotLight2.v2
+	part = spotLight2
+	part = spotLight1.v2
+	part = spotLight1
+	part = spotLight3
+	part = domeLight1
+	part = foldingRadSmall
+	part = batteryBankMini
+	part = solarPanels5
+	part = probeCoreOcto.v2
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedShores
+	title = 在Kerbin的海岸的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = crewReport@MunInSpaceHigh
+	title = 在距离Mun较远的太空中的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 10
+	asc = True
+	cap = 10
+}
+Science
+{
+	id = evaReport@MunInSpaceHigh
+	title = 在距离Mun较远的太空中的EVA报告
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 16
+	asc = True
+	cap = 16
+}
+Science
+{
+	id = barometerScan@KerbinInSpaceHigh
+	title = 在距离Kerbin较远的太空中的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 18
+	asc = True
+	cap = 18
+}
+Science
+{
+	id = temperatureScan@KerbinInSpaceHigh
+	title = 在距离Kerbin较远的太空中的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 1.5
+	sci = 12
+	asc = True
+	cap = 12
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinFlyingHigh
+	title = 在Kerbin的高层大气中的材料研究
+	dsc = 1
+	scv = 0.0478515364
+	sbv = 0.899999976
+	sci = 27.421875
+	asc = True
+	cap = 28.7999992
+}
+Science
+{
+	id = recovery@MunFlewBy
+	title = 回收到在Mun飞掠的载具
+	dsc = 1
+	scv = 0.166666701
+	sbv = 12
+	sci = 12
+	asc = True
+	cap = 14.4000006
+}
+Tech
+{
+	id = advFlightControl
+	state = Available
+	cost = 90
+	part = RCSLinearSmall
+	part = RCSblock.01.small
+	part = RCSBlock.v2
+	part = linearRcs
+	part = radialRCSTank
+	part = landerCabinSmall
+	part = advSasModule
+	part = mumech.MJ2.AR202.features1
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinFlyingLow
+	title = 飞越Kerbin时的材料研究
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.699999988
+	sci = 17.5
+	asc = True
+	cap = 22.3999996
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedHighlands
+	title = 在Kerbin的高原的材料研究
+	dsc = 1
+	scv = 0.218749985
+	sbv = 0.300000012
+	sci = 7.50000048
+	asc = True
+	cap = 9.60000038
+}
+Tech
+{
+	id = aerodynamicSystems
+	state = Available
+	cost = 90
+	part = nacelleBody
+	part = JetEngine
+	part = Mark2Cockpit
+	part = sweptWing2
+	part = structuralWing2
+	part = wingConnector3
+	part = wingConnector
+	part = airplaneTailB
+	part = standardNoseCone
+	part = noseConeAdapter
+	part = CircularIntake
+	part = airScoop
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedShores
+	title = 在Kerbin的海岸的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 3.60000014
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = barometerScan@KerbinSrfLandedGrasslands
+	title = 在Kerbin的草原的大气压扫描
+	dsc = 1
+	scv = 0.300000042
+	sbv = 0.300000012
+	sci = 2.51999998
+	asc = True
+	cap = 3.60000014
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowGrasslands
+	title = 飞越Kerbin的草原时的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 5.5999999
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowSouthernIceShelf
+	title = 飞越Kerbin的南方冰架时的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}
+Tech
+{
+	id = spaceExploration
+	state = Available
+	cost = 90
+	part = roverWheel2
+	part = groundLight2
+	part = groundLight1
+	part = ladder1
+	part = crewCabin
+	part = ConformalStorageUnit
+	part = evaRepairKit
+	part = smallCargoContainer
+}
+Science
+{
+	id = evaReport@KerbinSrfLandedSouthernIceShelf
+	title = 在Kerbin的南方冰架的EVA报告
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = barometerScan@MunInSpaceHigh
+	title = 在距离Mun较远的太空中的大气压扫描
+	dsc = 1
+	scv = 0
+	sbv = 2
+	sci = 24
+	asc = True
+	cap = 24
+}
+Science
+{
+	id = temperatureScan@MunInSpaceHigh
+	title = 在距离Mun较远的太空中的温度扫描
+	dsc = 1
+	scv = 0.299999952
+	sbv = 2
+	sci = 11.2000008
+	asc = True
+	cap = 16
+}
+Tech
+{
+	id = heavyRocketry
+	state = Available
+	cost = 90
+	part = MassiveBooster
+	part = engineLargeSkipper.v2
+	part = liquidEngine2-2.v2
+}
+Science
+{
+	id = mobileMaterialsLab@MunInSpaceLow
+	title = 在距离Mun较近的太空中的材料研究
+	dsc = 1
+	scv = 0.61718744
+	sbv = 3
+	sci = 36.7500038
+	asc = True
+	cap = 96
+}
+Science
+{
+	id = barometerScan@MunInSpaceLow
+	title = 在距离Mun较近的太空中的大气压扫描
+	dsc = 1
+	scv = 0.299999982
+	sbv = 3
+	sci = 25.2000008
+	asc = True
+	cap = 36
+}
+Science
+{
+	id = mobileMaterialsLab@MunSrfLandedMidlands
+	title = 在Mun的内陆的材料研究
+	dsc = 1
+	scv = 0.6171875
+	sbv = 4
+	sci = 49.0000038
+	asc = True
+	cap = 128
+}
+Science
+{
+	id = barometerScan@MunSrfLandedMidlands
+	title = 在Mun的内陆的大气压扫描
+	dsc = 1
+	scv = 0.299999952
+	sbv = 4
+	sci = 33.6000023
+	asc = True
+	cap = 48
+}
+Science
+{
+	id = crewReport@MunSrfLandedMidlands
+	title = 在Mun的内陆的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 20
+	asc = True
+	cap = 20
+}
+Science
+{
+	id = evaReport@MunSrfLandedMidlands
+	title = 在Mun的内陆的EVA报告
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 32
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = temperatureScan@MunSrfLandedMidlands
+	title = 在Mun的内陆的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 4
+	sci = 32
+	asc = True
+	cap = 32
+}
+Science
+{
+	id = recovery@MunSurfaced
+	title = 回收到从Mun的地表返航的载具。
+	dsc = 1
+	scv = 0.166666672
+	sbv = 30
+	sci = 30
+	asc = True
+	cap = 36
+}
+Tech
+{
+	id = fuelSystems
+	state = Available
+	cost = 90
+	part = fuelTank.long
+	part = Rockomax8BW
+	part = Rockomax32.BW
+	part = Rockomax16.BW
+	part = ReleaseValve
+	part = fuelLine
+}
+Tech
+{
+	id = supersonicFlight
+	state = Available
+	cost = 160
+	part = mk2CargoBayS
+	part = mk2FuselageShortLiquid
+	part = mk2FuselageShortLFO
+	part = mk2SpacePlaneAdapter
+	part = mk2.1m.Bicoupler
+	part = turboJet
+	part = mk2Cockpit.Standard
+	part = structuralWing
+	part = wingStrake
+}
+Science
+{
+	id = mobileMaterialsLab@KerbinSrfLandedLaunchPad
+	title = 在发射台的材料研究
+	dsc = 1
+	scv = 0.00228981161
+	sbv = 0.300000012
+	sci = 9.57801819
+	asc = True
+	cap = 9.60000038
+}
+Tech
+{
+	id = landing
+	state = Available
+	cost = 90
+	part = SmallGearBay
+	part = parachuteLarge
+	part = LaunchEscapeSystem
+	part = landingLeg1
+	part = HeatShield2
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedGlacierLakeLaunchSite
+	title = 在GlacierLake Launch Site的乘员报告
+	dsc = 1
+	scv = 1
+	sbv = 0.300000012
+	sci = 0
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = temperatureScan@MunInSpaceLow
+	title = 在距离Mun较近的太空中的温度扫描
+	dsc = 1
+	scv = 1
+	sbv = 3
+	sci = 0
+	asc = True
+	cap = 24
+}
+Science
+{
+	id = crewReport@MunInSpaceLow
+	title = 在距离Mun较近的太空中的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 3
+	sci = 15
+	asc = True
+	cap = 15
+}
+Science
+{
+	id = crewReport@KerbinSrfLandedGrasslands
+	title = 在Kerbin的草原的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 1.5
+	asc = True
+	cap = 1.5
+}
+Science
+{
+	id = temperatureScan@KerbinSrfLandedGrasslands
+	title = 在Kerbin的草原的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.300000012
+	sci = 2.4000001
+	asc = True
+	cap = 2.4000001
+}
+Science
+{
+	id = mysteryGoo@KerbinFlyingLow
+	title = 飞越Kerbin时的神秘黏性物质™观察结果
+	dsc = 1
+	scv = 0.053254433
+	sbv = 0.699999988
+	sci = 8.6153841
+	asc = True
+	cap = 9.09999943
+}
+Science
+{
+	id = temperatureScan@KerbinFlyingLowHighlands
+	title = 飞越Kerbin的高原时的温度扫描
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 5.5999999
+	asc = True
+	cap = 5.5999999
+}
+Science
+{
+	id = crewReport@KerbinFlyingLowHighlands
+	title = 飞越Kerbin的高原时的乘员报告
+	dsc = 1
+	scv = 0
+	sbv = 0.699999988
+	sci = 3.5
+	asc = True
+	cap = 3.5
+}

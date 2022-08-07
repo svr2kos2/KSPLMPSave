@@ -1,0 +1,42 @@
+name = ScenarioUpgradeableFacilities
+scene = 5, 6, 7, 8
+SpaceCenter/LaunchPad
+{
+	lvl = 1
+}
+SpaceCenter/Runway
+{
+	lvl = 0.5
+}
+SpaceCenter/VehicleAssemblyBuilding
+{
+	lvl = 0.5
+}
+SpaceCenter/SpaceplaneHangar
+{
+	lvl = 0.5
+}
+SpaceCenter/TrackingStation
+{
+	lvl = 0.5
+}
+SpaceCenter/AstronautComplex
+{
+	lvl = 0.5
+}
+SpaceCenter/MissionControl
+{
+	lvl = 1
+}
+SpaceCenter/ResearchAndDevelopment
+{
+	lvl = 0.5
+}
+SpaceCenter/Administration
+{
+	lvl = 0.5
+}
+SpaceCenter/FlagPole
+{
+	lvl = 0
+}

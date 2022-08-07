@@ -1,0 +1,472 @@
+name = Bill Kerman
+gender = Male
+type = Crew
+trait = Engineer
+brave = 0.5
+dumb = 0.800000012
+badS = False
+veteran = True
+tour = False
+state = Available
+inactive = False
+inactiveTimeEnd = 0
+gExperienced = 0
+outDueToG = False
+ToD = 2000.02
+idx = 0
+extraXP = 0
+hasHelmetOn = True
+hasNeckRingOn = True
+hasVisorDown = False
+lightR = 1
+lightG = 0.5176
+lightB = 0
+completedFirstEVA = True
+suit = Default
+hero = False
+EVACHUTE
+{
+	name = ModuleEvaChute
+	isEnabled = True
+	chuteYawRateAtMaxSpeed = 1
+	chuteMaxSpeedForYawRate = 50
+	chuteYawRateAtMinSpeed = 1
+	chuteMinSpeedForYawRate = 1
+	chuteRollRate = 1
+	chutePitchRate = 1
+	chuteDefaultForwardPitch = 9
+	semiDeployedChuteForwardPitch = 25
+	chutePitchRateDivisorWhenTurning = 1
+	chuteRollRateDivisorWhenPitching = 1
+	chuteYawRateDivisorWhenPitching = 1
+	persistentState = STOWED
+	animTime = 0
+	minAirPressureToOpen = 0.0399999991
+	deployAltitude = 1000
+	spreadAngle = 7
+	automateSafeDeploy = 0
+	stagingEnabled = False
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		DeployAction
+		{
+			actionGroup = None
+		}
+		CutAction
+		{
+			actionGroup = None
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+INVENTORY
+{
+	name = ModuleInventoryPart
+	isEnabled = True
+	stagingEnabled = True
+	inventory = evaChute,evaJetpack
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	STOREDPARTS
+	{
+		STOREDPART
+		{
+			slotIndex = 0
+			partName = evaChute
+			quantity = 1
+			stackCapacity = 1
+			variantName = 
+			PART
+			{
+				name = evaChute
+				cid = 4294879712
+				uid = 0
+				mid = 0
+				persistentId = 1131498126
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 0.00400000019
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = evaChute
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					ToggleSameVesselInteraction
+					{
+						actionGroup = None
+					}
+					SetSameVesselInteraction
+					{
+						actionGroup = None
+					}
+					RemoveSameVesselInteraction
+					{
+						actionGroup = None
+					}
+					AutostrutOff
+					{
+						actionGroup = None
+					}
+					AutostrutRoot
+					{
+						actionGroup = None
+					}
+					AutostrutHeaviest
+					{
+						actionGroup = None
+					}
+					AutostrutGrandparent
+					{
+						actionGroup = None
+					}
+					ResourcesEnableFlow
+					{
+						actionGroup = None
+						active = False
+					}
+					ResourcesDisableFlow
+					{
+						actionGroup = None
+						active = False
+					}
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCargoPart
+					isEnabled = True
+					beingAttached = False
+					beingSettled = False
+					reinitResourcesOnStoreInVessel = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = HotSpotModule
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ShipEffectsCollisions
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = AttachedOnEditor
+					isEnabled = True
+					active = True
+					originalPos = (0, 0, 0)
+					originalRotation = (0, 0, 0, 1)
+					moduleVersion = 6
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+			}
+		}
+		STOREDPART
+		{
+			slotIndex = 1
+			partName = evaJetpack
+			quantity = 1
+			stackCapacity = 1
+			variantName = 
+			PART
+			{
+				name = evaJetpack
+				cid = 4294879786
+				uid = 0
+				mid = 0
+				persistentId = 4173777341
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 2
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 0.0199999996
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = evaJetpack
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+					ToggleSameVesselInteraction
+					{
+						actionGroup = None
+					}
+					SetSameVesselInteraction
+					{
+						actionGroup = None
+					}
+					RemoveSameVesselInteraction
+					{
+						actionGroup = None
+					}
+					AutostrutOff
+					{
+						actionGroup = None
+					}
+					AutostrutRoot
+					{
+						actionGroup = None
+					}
+					AutostrutHeaviest
+					{
+						actionGroup = None
+					}
+					AutostrutGrandparent
+					{
+						actionGroup = None
+					}
+					ResourcesEnableFlow
+					{
+						actionGroup = None
+						active = False
+					}
+					ResourcesDisableFlow
+					{
+						actionGroup = None
+						active = False
+					}
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCargoPart
+					isEnabled = True
+					beingAttached = False
+					beingSettled = False
+					reinitResourcesOnStoreInVessel = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = HotSpotModule
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ShipEffectsCollisions
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = AttachedOnEditor
+					isEnabled = True
+					active = True
+					originalPos = (0, 0, 0)
+					originalRotation = (0, 0, 0, 1)
+					moduleVersion = 6
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 5
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+		}
+	}
+	UPGRADESAPPLIED
+	{
+	}
+}
+CAREER_LOG
+{
+	flight = 12
+	0 = Flight,Kerbin
+	0 = Suborbit,Kerbin
+	0 = Die
+	0 = Spawn
+	0 = Flight,Kerbin
+	0 = Land,Kerbin
+	0 = Recover
+	1 = Land,Kerbin
+	1 = Flight,Kerbin
+	1 = Recover
+	1 = Recover
+	2 = Recover
+	3 = Flight,Kerbin
+	3 = Land,Kerbin
+	3 = Recover
+	3 = Flight,Kerbin
+	3 = Land,Kerbin
+	3 = Recover
+	4 = Recover
+	5 = Recover
+	6 = Land,Kerbin
+	6 = Flight,Kerbin
+	6 = Die
+	6 = Recover
+	7 = Flight,Kerbin
+	7 = Recover
+	8 = Recover
+	9 = Recover
+	10 = Land,Kerbin
+	10 = Recover
+	11 = Flight,Kerbin
+	11 = Land,Kerbin
+	11 = Recover
+	12 = Recover
+	7 = Recover
+	8 = Recover
+	9 = Land,Kerbin
+	9 = Flight,Kerbin
+	9 = Spawn
+	9 = Die
+	10 = Recover
+	11 = Flight,Kerbin
+	11 = Land,Kerbin
+	11 = Recover
+}
+FLIGHT_LOG
+{
+	flight = 12
+}
